@@ -1,4 +1,6 @@
 <?php
+
+//Defining Properties
 trait PropertiesTrait {
     public $x = 1;
 }
