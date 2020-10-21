@@ -1,4 +1,5 @@
 <?php
+
 trait PropertiesTrait {
     public $same = true;
     public $different = false;
