@@ -1,4 +1,5 @@
 <?php
+// Example #7 Traits Composed from Traits
 trait Hello {
     public function sayHello() {
         echo 'Hello ';
