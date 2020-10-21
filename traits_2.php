@@ -1,4 +1,5 @@
 <?php
+// Example #2 Precedence Order Example
 class Base {
     public function sayHello() {
         echo 'Hello ';
