@@ -1,4 +1,5 @@
 <?php
+// Example #8 Express Requirements by Abstract Methods
 trait Hello {
     public function sayHelloWorld() {
         echo 'Hello'.$this->getWorld();
