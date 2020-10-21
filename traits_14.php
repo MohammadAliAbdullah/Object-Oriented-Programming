@@ -1,6 +1,6 @@
 
 <?php
-// On the other hand, "use" for traits respects the current namespace:
+// "use" for traits respects the current namespace:
 trait sayWhere {
     public function whereAmI() {
         echo __CLASS__;
