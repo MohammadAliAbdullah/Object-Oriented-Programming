@@ -1,5 +1,6 @@
 Example using parent class:
 <?php
+
 class TestClass {
     public static $_bar;
 }
