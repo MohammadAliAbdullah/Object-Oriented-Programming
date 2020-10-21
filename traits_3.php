@@ -1,4 +1,5 @@
 <?php
+// Example #3 Alternate Precedence Order Example
 trait HelloWorld {
     public function sayHello() {
         echo 'Hello World!';
