@@ -1,6 +1,6 @@
 
 <?php
-// Example #1 Trait example 
+// Example #1 Trait example  
 trait ezcReflectionReturnInfo
 {
     public function triats()
