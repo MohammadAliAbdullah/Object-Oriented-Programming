@@ -1,4 +1,5 @@
 <?php
+// Example #4 Multiple Traits Usage
 trait Hello {
     public function sayHello() {
         echo 'Hello ';
