@@ -1,4 +1,6 @@
 <?php
+
+// Example #9 Static Variables
 trait Counter {
     public function inc() {
         static $c = 0;
