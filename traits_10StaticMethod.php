@@ -10,4 +10,5 @@ class Example {
 }
 
 Example::doSomething();
+// Doing something
 ?>
