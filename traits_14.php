@@ -1,0 +1,22 @@
+
+<?php
+trait sayWhere {
+    public function whereAmI() {
+        echo __CLASS__;
+    }
+}
+
+class Hello {
+    use sayWHere;
+}
+
+class World {
+    use sayWHere;
+}
+
+$a = new Hello;
+$a->whereAmI(); //Hello
+
+// $b = new World;
+// $b->whereAmI(); //World
+?>
