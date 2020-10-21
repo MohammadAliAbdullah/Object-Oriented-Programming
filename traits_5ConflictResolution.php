@@ -1,4 +1,6 @@
 <?php
+
+// Example #5 Conflict Resolution
 trait A {
     public function smallTalk() {
         echo 'a';
