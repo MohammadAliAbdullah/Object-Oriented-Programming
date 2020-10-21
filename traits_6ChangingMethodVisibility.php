@@ -1,4 +1,5 @@
 <?php
+// Example #6 Changing Method Visibility
 trait HelloWorld {
     public function sayHello() {
         echo 'Hello World!';
