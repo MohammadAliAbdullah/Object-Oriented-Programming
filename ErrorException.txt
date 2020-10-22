@@ -2,3 +2,16 @@
 PHP has an exception model similar to that of other programming languages. An exception can be thrown, and caught ("catched") within PHP. Code may be surrounded in a try block, to facilitate the catching of potential exceptions. Each try must have at least one corresponding catch or finally block.
 
 The thrown object must be an instance of the Exception class or a subclass of Exception. Trying to throw an object that is not will result in a PHP Fatal Error.
+
+
+Try, throw and catch
+To avoid the error from the example above, we need to create the proper code to handle an exception.
+
+Proper exception code should include:
+
+try - A function using an exception should be in a "try" block. If the exception does not trigger, the code will continue as normal. However if the exception triggers, an exception is "thrown"
+throw - This is how you trigger an exception. Each "throw" must have at least one "catch"
+catch - A "catch" block retrieves an exception and creates an object containing the exception information
+
+
+
